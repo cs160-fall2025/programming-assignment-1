@@ -44,7 +44,7 @@ The autograder tests run in a test browser environment controlled by Playwright.
 After you have installed dependencies above, you will need to run Playwright's installer, which will ensure that the right version of the testing browser is available on your computer:
 
 ```bash
-npx playwright install firefox
+npx playwright install --with-deps firefox
 ```
 
 ### Run the server

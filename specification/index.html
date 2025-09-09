@@ -314,13 +314,6 @@
 
       <h2 id="Autograder">Autograder</h2>
 
-      <!-- TODO -->
-      <div class="admonition-info">
-        We may not publish this assignment’s autograder right away; keep an eye
-        on Ed for updates. You’ll have access to the autograder in advance of
-        the assignment’s deadline.
-      </div>
-
       <p>
         The tests for this assignment are included in the starter code
         repository. We recommend trying
@@ -345,7 +338,6 @@
 
         <p>This exercise is copyright CC BY-SA v2.5, Mozilla Contributors.</p>
 
-        <!-- TODO: maybe we Vite it? -->
         <p>
           Open
           <a href="/code/part1/index.html"><strong>part1/index.html</strong></a>
@@ -382,13 +374,17 @@
         <p>
           Once you've finished, run <code>npx playwright test</code> from within
           the <code>programming-assignment-1</code> directory (make sure you're
-          still running the server in some terminal with <code>npm start</code>).
-          You should be passing the tests for task 1 of part 1!
+          still running the server in some terminal with <code>npm start</code>,
+          and that you have run the <code>npx playwright install</code> command
+          from this repository's README). You should be passing the tests for
+          task 1 of part 1!
         </p>
 
         <p>
           We've also found the official Playwright extension in VS Code to be
-          pretty helpful!
+          pretty helpful! You'll want to open the entire repository (not just
+          the <code>code</code> directory) in VS Code so that it can see the
+          <code>test</code> folder.
         </p>
 
         <h2>Task 2</h2>
@@ -514,8 +510,8 @@
         </p>
 
         <div style="margin-left: 24px">
-          <a href="http://localhost:6160/css-diner"
-            >http://localhost:6160/css-diner</a
+          <a href="http://localhost:6160/css-diner/"
+            >http://localhost:6160/css-diner/</a
           >
         </div>
 
@@ -854,6 +850,12 @@ for (let i = 0; i < articles.length; i++) {
             src="images/part3/task1-selected.png"
             alt="Visual demonstration of which elements are selected"
           />
+        </div>
+
+        <div class="admonition-info">
+          Note: your <code>task1_jsCode</code> function should return a list of
+          all selected elements, even though in this case we're only selecting a
+          single element.
         </div>
 
         <h3>Intro header</h3>
