@@ -41,7 +41,7 @@ npm install
 This will read `package.json`, then look to the [NPM package repository](https://www.npmjs.com/) to grab the appropriate dependencies.
 
 The autograder tests run in a test browser environment controlled by Playwright.
-After you have installed dependencies above, you will need to run Playwright's installer, which will ensure that the right version of the testing browser is available on your computer:
+After you have installed dependencies above, you will need to run Playwright's installer from within the same directory, which will ensure that the right version of the testing browser is available on your computer:
 
 ```bash
 npx playwright install --with-deps firefox
